@@ -142,4 +142,14 @@
 
 			});
 
+			// función para  cambiar de lenguaje
+
+			$('[lang="es"]').hide();
+    
+$('#switch-lang').click(function() {
+  $('[lang="es"]').toggle();
+  $('[lang="en"]').toggle();
+});
+
+
 })(jQuery);
